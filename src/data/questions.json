@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language",
+      "Hyper Tabular Markup Language"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which CSS property controls text size?",
+    "options": [
+      "font-style",
+      "text-size",
+      "font-size",
+      "text-style"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Inside which HTML element do we put the JavaScript?",
+    "options": [
+      "<js>",
+      "<javascript>",
+      "<script>",
+      "<code>"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which method returns the length of a string?",
+    "options": [
+      "length()",
+      "size()",
+      "index()",
+      "None"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "React is primarily used for building _____.",
+    "options": [
+      "Databases",
+      "Connectivity",
+      "User interfaces",
+      "Design platforms"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which React hook manages state?",
+    "options": [
+      "useFetch",
+      "useState",
+      "useClassState",
+      "useStore"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which HTTP method is idempotent?",
+    "options": [
+      "POST",
+      "PATCH",
+      "DELETE",
+      "GET"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which array method returns a new array from calling a function on every element?",
+    "options": [
+      "forEach()",
+      "map()",
+      "filter()",
+      "reduce()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "In React Router v6, which component declares routes?",
+    "options": [
+      "<Switch>",
+      "<Routes>",
+      "<BrowserRouter>",
+      "<RouteProvider>"
+    ],
+    "answer": 1
+  }
+]

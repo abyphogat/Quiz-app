@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple UI tokens */
+:root { --card: 0 6px 18px rgba(15,23,42,0.06); }
+html,body,#root { height:100%; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+
+.container {
+  @apply max-w-3xl mx-auto p-4;
+}
+
+/* card */
+.app-card {
+  @apply bg-white rounded-2xl shadow-md border border-slate-100 p-5;
+}
+
+/* buttons */
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 font-semibold transition-transform active:scale-95;
+}
+.btn-primary { @apply bg-primary text-white hover:bg-blue-700; }
+.btn-ghost { @apply bg-white border border-slate-200 text-slate-700 hover:bg-slate-50; }
+
+.fade-in { animation: fadeIn .28s ease both }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(6px) } to { opacity: 1; transform: translateY(0) } }
+
+.progress-track { @apply h-2 bg-slate-200 rounded-full overflow-hidden; }
+.progress-fill { @apply h-full bg-primary transition-all; }
+
+.option-btn { @apply w-full text-left p-3 rounded-xl border border-slate-200; }
+.option-btn.selected { @apply border-primary bg-primary/5; }
+.option-btn.correct { @apply border-emerald-600 bg-emerald-50; }
+.option-btn.wrong { @apply border-red-600 bg-red-50; }
+
+.small { @apply text-xs text-slate-500 }
